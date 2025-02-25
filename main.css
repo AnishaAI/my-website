@@ -1,0 +1,371 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background: #f48cc2;
+    overflow-x: hidden;
+    
+
+}
+
+.navbar {
+    background:#C49991;
+    font-weight: bold;
+    
+}
+
+
+.header {
+    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar {
+    background-color: #C49991; /* Fallback color */
+    background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.nav-link,
+.navbar-brand {
+    color: #3f3c3c;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #b01212;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Change font for the navbar brand */
+.navbar-brand
+{
+    font-family:cursive;
+    color: #36a7a1;
+    font-weight: bold;
+}
+
+
+
+/* Change font on hover */
+.nav-link:hover {
+    color: #ec67ab; /* Change color on hover */
+}
+
+
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #ec67ab;
+    font-weight: bold;
+    font-style: italic;
+}
+.description p {
+	color: #6b5b5b;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+
+.description button {
+    border:1px solid #636860;
+    background:#df9cbf;
+    border-radius: 0;
+    color:#3f3a3a;
+}
+.description button:hover {
+	border:1px solid #812d2d;
+    background:#83c8cb;
+    color:#000;
+}
+
+.features {
+  text-align: center;
+  padding: 50px 20px;
+  margin: 4em auto;
+	position: relative;
+}
+.features img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+
+}
+.form {
+  background: linear-gradient(to top, rgba(96, 84, 93, 0.8)50%,rgba(96, 84, 93, 0.8)50%);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+
+.btnn{
+  width: 240px;
+  height: 40px;
+  background: #ec67ab;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+.btnn:hover{
+  background: #fff;
+  color: #ec67ab;
+}
+.btnn a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.form .link{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+.form .link a{
+  text-decoration: none;
+  color: #ec67ab;
+}
+.liw{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color: #ec67ab;
+}
+
+
+
+
+/* Team Section Styles */
+.team-card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #efb2b2;
+  }
+  
+.team-card:hover {
+    transform: translateY(-5px);
+  }
+  
+.team-card .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: -75px;
+    border: 5px solid  #ec67ab;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+.team-card .card-body {
+    padding-top: 3rem;
+  }
+  
+.team-card .card-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+.team-card .card-text {
+    color: #0a1218;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Hover Effect */
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+.team-card:hover .card-title {
+    color: #4cbfc5;
+    
+  }
+  
+
+.footer-copyright {
+    color: #080606;
+    padding: 40px 0;
+    font-weight: 600;
+}
+
+/* Footer Styles */
+.page-footer {
+    background-color: #efb2b2;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .page-footer h6 {
+    color: #101010;
+    position: relative;
+  }
+  
+  .page-footer h6::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+  }
+  
+  .page-footer p,
+  .page-footer a {
+    color: #565050;
+  }
+  
+  .page-footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-copyright {
+    background-color: #efb2b2;
+    padding: 10px 0;
+    color: #070707;
+  }
+  
+
+
+  @media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
+
+
+
+.team-card {
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+  }
+  
+  .team-card .card-img-top {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+  }
+  
+  .team-card .card-body {
+    padding: 20px;
+  }
+  
+  .team-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .team-card .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+
+
+
+.modal-header {
+            border-bottom: none;
+            justify-content: center;
+            position: relative;
+        }
+        .modal-header img {
+            width: 80px;
+            height: 80px;
+        }
+        .modal-header .btn-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .modal-body {
+            padding: 20px;
+        }
+        .modal-body h4 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .modal-body p {
+            font-size: 1rem;
+            color: #555;
+        }
+        .input-group {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+        .btn-subscribe {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-subscribe:hover {
+            background-color: #0056b3;
+        }
